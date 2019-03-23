@@ -1,0 +1,17 @@
+[package]
+name = "maple-mini"
+version = "0.1.0"
+authors = ["eV <ev@7pr.xyz>"]
+edition = "2018"
+
+[dependencies]
+stm32f1xx-hal = { version = "0.2.1", features = ["stm32f103"] }
+
+[dev-dependencies]
+cortex-m-rtfm = { version = "0.4.2" }
+cortex-m-semihosting = "0.3.2"
+panic-semihosting = "0.5.1"
+stm32f1xx-hal = { version = "0.2.1", features = ["stm32f103", "rt"] }
+
+[features]
+rt = ["stm32f1xx-hal/rt"]
