@@ -1,6 +1,6 @@
 # maple-mini-rs
 
-A small rust wrapper crate around [stm32f1xx-hal])(https://github.com/stm32-rs/stm32f1xx-hal).
+A small rust wrapper crate around [stm32f1xx-hal](https://github.com/stm32-rs/stm32f1xx-hal).
 
 Provides numbered pin aliases corresponding to the pins on the maple mini
 board.
